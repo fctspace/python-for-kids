@@ -1,0 +1,12 @@
+#用turtle模块绘制正方形
+#for循环的应用
+import turtle          #导入turtle模块
+
+spuare=turtle.Turtle()    #创建Turtle对象，命名为spuare
+wn=turtle.Screen()
+
+for i in range(4):        #循环重复4次
+     square.forward(100)  #向前100像素
+     square.left(90)      #左转90度
+     
+wn.exitonclick()          #点击关闭窗口
